@@ -45,7 +45,7 @@ public class FirstFragment extends Fragment {
 
         //convert value to integer and increment it
         count = Integer.parseInt(countString);
-        count++;
+        count+=2;
 
         //display the new value in the text view
         main_num.setText(count.toString());
